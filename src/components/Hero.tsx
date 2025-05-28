@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-64 h-64 border border-white/20 rotate-12"></div>
@@ -25,10 +25,6 @@ const Hero = () => {
           />
           
           <div className="w-24 h-0.5 bg-white mx-auto mb-6 street-divider"></div>
-          
-          <p className="font-oswald text-lg md:text-xl text-gray-300 mb-8 uppercase tracking-wider">
-            Whakatane
-          </p>
           
           <div className="space-y-4 mb-12">
             <p className="text-gray-400 text-lg font-light leading-relaxed max-w-2xl mx-auto">

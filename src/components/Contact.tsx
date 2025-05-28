@@ -36,7 +36,7 @@ Service: ${formData.service}
 Message:
 ${formData.message}`;
     
-    const mailtoLink = `mailto:info@hiddentints.nz?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:info@hiddentints.co.nz?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
     
     toast({
@@ -67,7 +67,7 @@ ${formData.message}`;
                 <MapPin className="w-6 h-6 text-white flex-shrink-0" />
                 <div>
                   <div className="text-white font-medium">Location</div>
-                  <div className="text-gray-400">Whakatane, Bay of Plenty, New Zealand</div>
+                  <div className="text-gray-400">Bay of Plenty, New Zealand</div>
                 </div>
               </div>
               
@@ -75,7 +75,7 @@ ${formData.message}`;
                 <Mail className="w-6 h-6 text-white flex-shrink-0" />
                 <div>
                   <div className="text-white font-medium">Email</div>
-                  <div className="text-gray-400">info@hiddentints.nz</div>
+                  <div className="text-gray-400">info@hiddentints.co.nz</div>
                 </div>
               </div>
               

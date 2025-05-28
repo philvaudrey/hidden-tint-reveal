@@ -15,14 +15,14 @@ const Footer = () => {
           </div>
           
           <div className="text-gray-400 mb-6">
-            Premium Window Tinting • Whakatane, New Zealand
+            Premium Window Tinting • Bay of Plenty, New Zealand
           </div>
           
           <div className="w-16 h-0.5 bg-gray-600 mx-auto mb-6"></div>
           
           <div className="text-gray-500 text-sm">
             <p>&copy; 2024 Hidden Tints. All rights reserved.</p>
-            <p className="mt-2">Professional window tinting services in Whakatane and surrounding areas.</p>
+            <p className="mt-2">Professional window tinting services in Bay of Plenty and surrounding areas.</p>
           </div>
         </div>
       </div>
