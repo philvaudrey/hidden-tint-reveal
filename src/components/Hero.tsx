@@ -21,12 +21,8 @@ const Hero = () => {
           <img 
             src="/lovable-uploads/41d6b94b-6349-496f-a7cc-9220b2898036.png" 
             alt="Hidden Tints" 
-            className="mx-auto mb-8 h-32 w-auto"
+            className="mx-auto mb-12 h-48 md:h-64 lg:h-72 w-auto"
           />
-          
-          <h1 className="font-oswald text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 stencil-text uppercase tracking-wide">
-            Hidden Tints
-          </h1>
           
           <div className="w-24 h-0.5 bg-white mx-auto mb-6 street-divider"></div>
           
@@ -36,7 +32,7 @@ const Hero = () => {
           
           <div className="space-y-4 mb-12">
             <p className="text-gray-400 text-lg font-light leading-relaxed max-w-2xl mx-auto">
-              Premium window tinting that stays hidden until you need it most.
+              Stay Hidden, Stay Cool, Stay Protected
             </p>
             <p className="text-gray-500 text-sm uppercase tracking-wider font-oswald">
               Vehicle • Building • Protection
