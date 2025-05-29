@@ -30,9 +30,6 @@ const Hero = () => {
             <p className="text-gray-400 text-lg font-light leading-relaxed max-w-2xl mx-auto">
               Stay Hidden, Stay Cool, Stay Protected
             </p>
-            <p className="text-gray-500 text-sm uppercase tracking-wider font-oswald">
-              Vehicle • Building • Protection
-            </p>
           </div>
           
           <button 
