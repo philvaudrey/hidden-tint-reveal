@@ -26,8 +26,6 @@ const Hero = () => {
             className="mx-auto mb-12 h-48 md:h-64 lg:h-72 w-auto"
           />
           
-          <div className="w-24 h-0.5 bg-white mx-auto mb-6 street-divider"></div>
-          
           <div className="space-y-4 mb-12">
             <p className="text-gray-400 text-lg font-light leading-relaxed max-w-2xl mx-auto">
               Stay Hidden, Stay Cool, Stay Protected
