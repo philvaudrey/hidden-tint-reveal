@@ -1,4 +1,6 @@
 
+import Contact from './Contact';
+
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.getElementById('contact');
@@ -8,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+    <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-64 h-64 border border-white/20 rotate-12"></div>
@@ -34,11 +36,16 @@ const Hero = () => {
           
           <button 
             onClick={scrollToContact}
-            className="bg-white text-black px-8 py-3 font-oswald uppercase tracking-wider font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105"
+            className="bg-white text-black px-8 py-3 font-oswald uppercase tracking-wider font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 mb-16"
           >
-            Get Quote
+            Enquire
           </button>
         </div>
+      </div>
+
+      {/* Contact Form directly below */}
+      <div className="w-full">
+        <Contact />
       </div>
     </section>
   );
